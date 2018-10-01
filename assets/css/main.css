@@ -1648,3 +1648,12 @@ input, select, textarea {
 .skills-icons{
 	font-size: 36px;
 }
+
+.my-email{
+	padding: 10px 0 0 0;
+	margin-bottom: 10px;
+}
+
+.contact-wrap{
+	text-align: center;
+}
