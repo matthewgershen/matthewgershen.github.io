@@ -1644,3 +1644,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.skills-icons{
+	font-size: 36px;
+}
