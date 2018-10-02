@@ -1268,9 +1268,9 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 8rem;
+			height: 8rem;
+			line-height: 8rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
@@ -1280,9 +1280,9 @@ input, select, textarea {
 			}
 
 		#header img {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 8rem;
+			height: 8rem;
+			line-height: 8rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
@@ -1318,6 +1318,8 @@ input, select, textarea {
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
+				width: 75%;
+				margin: auto;
 			}
 
 		#header nav ul {
@@ -1647,6 +1649,7 @@ input, select, textarea {
 
 .skills-icons{
 	font-size: 36px;
+	padding: 15px 0;
 }
 
 .my-email{
