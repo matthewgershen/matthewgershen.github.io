@@ -1178,6 +1178,7 @@ input, select, textarea {
 		justify-content: space-between;
 		position: relative;
 		min-height: 100vh;
+		min-width: 750px;
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
@@ -1236,6 +1237,7 @@ input, select, textarea {
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
+		min-width: 750px;
 		text-align: center;
 	}
 
@@ -1306,6 +1308,7 @@ input, select, textarea {
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
 				max-height: 40rem;
+				min-width: 750px;
 				overflow: hidden;
 			}
 
@@ -1435,6 +1438,14 @@ input, select, textarea {
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
+				}
+
+				#header img {
+					width: 4.75rem;
+					height: 4.75rem;
+					line-height: 4.75rem;
+					border: solid 1px #ffffff;
+					border-radius: 100%;
 				}
 
 			#header .content .inner {
